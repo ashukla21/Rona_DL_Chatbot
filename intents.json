@@ -1,0 +1,113 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day",
+          "What's up?",
+          "How's it hangin'?"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?",
+          "'Sup'",
+          "My name's Rona, how can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "See ya"],
+        "responses": [
+          "See you later, thanks for visiting and keep social distancing!",
+          "Have a nice day, remember to always wear a mask my friend!",
+          "Bye! Come back again soon.",
+          "See ya, stay safe during this pandemic!",
+          "Bye bye then, stay safe!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "deaths",
+        "patterns": [
+          "How many deaths are there worldwide?",
+          "Deaths?",
+          "What percentage of people die from coronavirus?",
+          "How many people have died from COVID-19?",
+          "How many people have died from coronavirus?",
+          "What is the number of deaths from coronavirus?",
+          "How many deaths are there in the United States?",
+          "How many new deaths are there in the world?"
+        ],
+        "responses": [
+          "There have been 1,253,693 deaths in total worldwide, and 242,339 deaths in the United States in total. Our death percentage is 3-4%.",
+          "Our death percent is 3-4%. The US has had an astonishing 242,339 deaths, and worse there have been 1,253,693 deaths internationally."
+        ]
+      },
+      {
+        "tag": "symptoms",
+        "patterns": [
+          "What are the symptoms of covid-19?",
+          "Some symptoms?",
+          "Can you inform me of some of the coronovirus symptoms",
+          "What are the signs of coronavirus?",
+          "How do you know if you have coronavirus?"
+        ],
+        "responses": [
+          "Some common symptoms are fevers, chills, coughs, shortness of breath or difficulty breathing.",
+          "Symptoms include fevers, chills, coughs, shortness of breath or difficulty breathing."
+        ]
+      },
+      {
+        "tag": "cases",
+        "patterns": [
+          "How many cases are there right now?",
+          "What is the number of cases?",
+          "Can you tell me how many people have corona virus right now?",
+          "How many cases are there worldwide?",
+          "What is the number of people with coronavirus right now?"
+        ],
+        "responses": [
+          "50,021,492 people have corona virus internationally.",
+          "Around 50,021,492 people have the virus worldwide right now."
+        ]
+      },
+      {
+        "tag": "medicine",
+        "patterns": [
+          "What medicines are used to treat coronavirus?",
+          "What medicine is used for coronavirus?",
+          "Any medicnes you recommend?",
+          "Do you know some medicines?",
+          "Any medicine recommendations?"
+        ],
+        "responses": [
+          "While there is no vaccine yet, you should take over-the-counter medicines, such as acetaminophen, to help you feel better.",
+          "No specific medince is best, but take over-the-counter medicines, such as acetaminophen, to help you feel better."
+        ]
+      },
+      {
+        "tag": "Technology",
+        "patterns": [
+          "What companies are creating vaccines?",
+          "What technology is being created to make a vaccine?",
+          "When will technology be made by a company to make a vaccine?",
+          "Do you know any new technologies being made to fight the virus?"
+        ],
+        "responses": [
+          "Moderna is a startup using Deep Learning to study mRNA and are leading the movement to create a legitamte vaccine."
+        ]
+      }
+    ]
+  }
+
